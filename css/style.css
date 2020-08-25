@@ -1,0 +1,103 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+
+  figure.mast-bg {
+    background-position: 87%;
+  }
+  h1.mast-title {
+    text-align: center;
+    font-size: 30px;
+  }
+  div.mast-text {
+    text-align: center;
+    font-size: 24px;
+  }
+  div#output {
+    text-align: center;
+    font-size: 26px;
+  }
+  input#input {
+    text-align: center;
+  }
+}
+
+@media (orientation: landscape) {
+  figure.mast-bg {
+    background-position: inherit;
+    background-color: #50505080;
+    background-blend-mode: hard-light;
+    
+  }
+  h1.mast-title {
+    font-size: 32px;
+  }
+  div.mast-text {
+    font-size: 25px;
+  }
+  
+}
+
+body {
+  color: white;
+  margin: 0;
+  width: 100%;
+  font-family: "Cutive Mono", monospace;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: normal;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.mast-bg {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.mast-header {
+  position: relative;
+  margin-bottom: auto;
+  padding: 5%;
+}
+
+.mast-title {
+  font-size: 2em;
+  font-weight: 400;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+.mast-text {
+  font-size: 2em;
+  line-height: 1.5;
+}
+
+#output {
+  font-size: 2em;
+  line-height: 1.5;
+}
+
+input[type="text"] {
+  background: transparent;
+  width: 60px;
+  -moz-appearance: textfield;
+  text-align: center;
+  
+}
+
+input, select, textarea {
+  font-family: "Cutive Mono", monospace;
+  color: rgba(0, 255, 0, .75);
+  font-size: 1.0em;
+}
+
+
+
